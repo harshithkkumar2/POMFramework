@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-06T18:16:12 IST" name="Suite" finished-at="2024-09-06T18:17:04 IST" duration-ms="51915">
+    <groups>
+      <group name="Sanity">
+        <method signature="LoginPageTest.InValidUserNameInValidPassword()[pri:0, instance:com.mystroe.testScripts.LoginPageTest@4fb0f2b9]" name="InValidUserNameInValidPassword" class="com.mystroe.testScripts.LoginPageTest"/>
+        <method signature="LoginPageTest.InValidUserNameValidPassword()[pri:0, instance:com.mystroe.testScripts.LoginPageTest@4fb0f2b9]" name="InValidUserNameValidPassword" class="com.mystroe.testScripts.LoginPageTest"/>
+        <method signature="LoginPageTest.ValidUserNameInValidPassword()[pri:0, instance:com.mystroe.testScripts.LoginPageTest@4fb0f2b9]" name="ValidUserNameInValidPassword" class="com.mystroe.testScripts.LoginPageTest"/>
+        <method signature="LoginPageTest.ValidUserNameValidPassword()[pri:0, instance:com.mystroe.testScripts.LoginPageTest@4fb0f2b9]" name="ValidUserNameValidPassword" class="com.mystroe.testScripts.LoginPageTest"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="LoginPageTest.InValidUserNameInValidPassword()[pri:0, instance:com.mystroe.testScripts.LoginPageTest@4fb0f2b9]" name="InValidUserNameInValidPassword" class="com.mystroe.testScripts.LoginPageTest"/>
+        <method signature="LoginPageTest.InValidUserNameValidPassword()[pri:0, instance:com.mystroe.testScripts.LoginPageTest@4fb0f2b9]" name="InValidUserNameValidPassword" class="com.mystroe.testScripts.LoginPageTest"/>
+        <method signature="LoginPageTest.ValidUserNameInValidPassword()[pri:0, instance:com.mystroe.testScripts.LoginPageTest@4fb0f2b9]" name="ValidUserNameInValidPassword" class="com.mystroe.testScripts.LoginPageTest"/>
+        <method signature="LoginPageTest.ValidUserNameValidPassword()[pri:0, instance:com.mystroe.testScripts.LoginPageTest@4fb0f2b9]" name="ValidUserNameValidPassword" class="com.mystroe.testScripts.LoginPageTest"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="LoginPageTest.InValidUserNameInValidPassword()[pri:0, instance:com.mystroe.testScripts.LoginPageTest@4fb0f2b9]" name="InValidUserNameInValidPassword" class="com.mystroe.testScripts.LoginPageTest"/>
+        <method signature="LoginPageTest.InValidUserNameValidPassword()[pri:0, instance:com.mystroe.testScripts.LoginPageTest@4fb0f2b9]" name="InValidUserNameValidPassword" class="com.mystroe.testScripts.LoginPageTest"/>
+        <method signature="LoginPageTest.ValidUserNameInValidPassword()[pri:0, instance:com.mystroe.testScripts.LoginPageTest@4fb0f2b9]" name="ValidUserNameInValidPassword" class="com.mystroe.testScripts.LoginPageTest"/>
+        <method signature="LoginPageTest.ValidUserNameValidPassword()[pri:0, instance:com.mystroe.testScripts.LoginPageTest@4fb0f2b9]" name="ValidUserNameValidPassword" class="com.mystroe.testScripts.LoginPageTest"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2024-09-06T18:16:12 IST" name="Test" finished-at="2024-09-06T18:17:04 IST" duration-ms="51915">
+      <class name="com.mystroe.testScripts.LoginPageTest">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.mystroe.testScripts.LoginPageTest@4fb0f2b9]" started-at="2024-09-06T18:16:11 IST" name="beforeSuite" finished-at="2024-09-06T18:16:12 IST" duration-ms="343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystroe.testScripts.LoginPageTest@4fb0f2b9]" started-at="2024-09-06T18:16:12 IST" name="setup" finished-at="2024-09-06T18:16:19 IST" duration-ms="6893" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="InValidUserNameInValidPassword()[pri:0, instance:com.mystroe.testScripts.LoginPageTest@4fb0f2b9]" started-at="2024-09-06T18:16:19 IST" name="InValidUserNameInValidPassword" finished-at="2024-09-06T18:16:25 IST" duration-ms="6558" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InValidUserNameInValidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystroe.testScripts.LoginPageTest@4fb0f2b9]" started-at="2024-09-06T18:16:25 IST" name="tearDown" finished-at="2024-09-06T18:16:26 IST" duration-ms="491" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystroe.testScripts.LoginPageTest@4fb0f2b9]" started-at="2024-09-06T18:16:26 IST" name="setup" finished-at="2024-09-06T18:16:32 IST" duration-ms="6614" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="InValidUserNameValidPassword()[pri:0, instance:com.mystroe.testScripts.LoginPageTest@4fb0f2b9]" started-at="2024-09-06T18:16:32 IST" name="InValidUserNameValidPassword" finished-at="2024-09-06T18:16:39 IST" duration-ms="6191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InValidUserNameValidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystroe.testScripts.LoginPageTest@4fb0f2b9]" started-at="2024-09-06T18:16:39 IST" name="tearDown" finished-at="2024-09-06T18:16:39 IST" duration-ms="330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystroe.testScripts.LoginPageTest@4fb0f2b9]" started-at="2024-09-06T18:16:39 IST" name="setup" finished-at="2024-09-06T18:16:45 IST" duration-ms="5799" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ValidUserNameInValidPassword()[pri:0, instance:com.mystroe.testScripts.LoginPageTest@4fb0f2b9]" started-at="2024-09-06T18:16:45 IST" name="ValidUserNameInValidPassword" finished-at="2024-09-06T18:16:51 IST" duration-ms="5583" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidUserNameInValidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystroe.testScripts.LoginPageTest@4fb0f2b9]" started-at="2024-09-06T18:16:51 IST" name="tearDown" finished-at="2024-09-06T18:16:51 IST" duration-ms="321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystroe.testScripts.LoginPageTest@4fb0f2b9]" started-at="2024-09-06T18:16:51 IST" name="setup" finished-at="2024-09-06T18:16:57 IST" duration-ms="5745" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ValidUserNameValidPassword()[pri:0, instance:com.mystroe.testScripts.LoginPageTest@4fb0f2b9]" started-at="2024-09-06T18:16:57 IST" name="ValidUserNameValidPassword" finished-at="2024-09-06T18:17:03 IST" duration-ms="6191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidUserNameValidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystroe.testScripts.LoginPageTest@4fb0f2b9]" started-at="2024-09-06T18:17:03 IST" name="tearDown" finished-at="2024-09-06T18:17:04 IST" duration-ms="317" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.mystroe.testScripts.LoginPageTest@4fb0f2b9]" started-at="2024-09-06T18:17:04 IST" name="afterSuite" finished-at="2024-09-06T18:17:05 IST" duration-ms="900" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.mystroe.testScripts.LoginPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

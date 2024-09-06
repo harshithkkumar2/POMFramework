@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="methods">
+	<listeners>
+		<listener class-name="com.mystroe.utility.ListenerClass"></listener>
+	</listeners>
+	<test thread-count="5" name="Regression">
+		<parameter name="browser" value="ie"></parameter>
+		<groups>
+			<run>
+				<include name="Regression"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.mystroe.testScripts.SearchResultPageTest" />
+			<class name="com.mystroe.testScripts.HomePageTest" />
+			<class name="com.mystroe.testScripts.AddToCartPageTest" />
+			<class name="com.mystroe.testScripts.IndexPageTest" />
+			<class name="com.mystroe.testScripts.LoginPageTest" />
+			<class name="com.mystroe.testScripts.OrderPageTest" />
+			<class name="com.mystroe.testScripts.AccountCreationPageTest" />
+			<class name="com.mystroe.testScripts.EndToEndTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
