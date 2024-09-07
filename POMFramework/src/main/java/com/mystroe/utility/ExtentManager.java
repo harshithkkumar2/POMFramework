@@ -15,7 +15,7 @@ public class ExtentManager {
 	
 	public static void setExtent() {
 		try {
-			htmlReporter= new ExtentSparkReporter(System.getProperty("user.dir")+"/test-output/ExtentReport/"+"MyReport_"+LocalDateTime.now().getNano()+".html").viewConfigurer()
+			htmlReporter= new ExtentSparkReporter(System.getProperty("user.dir")+"/test-output/ExtentReport/"+"MyReport.html").viewConfigurer()
 				    .viewOrder()
 				    .as(new ViewName[] {  ViewName.DASHBOARD, 
 				    		   ViewName.TEST,

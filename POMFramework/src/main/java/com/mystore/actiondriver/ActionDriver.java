@@ -20,6 +20,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.Parameters;
 import org.openqa.selenium.Alert;
 
 import com.mystore.actioninterface.ActionInterface;
@@ -771,6 +772,7 @@ public class ActionDriver extends Baseclass implements ActionInterface{
 				+ dateName + ".png";
 		return destination;
 	}
+	
 	@Override
 	public String getCurrentTime() {
 		String currentDate = new SimpleDateFormat("yyyy-MM-dd-hhmmss").format(new Date());
